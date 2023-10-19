@@ -1,0 +1,139 @@
+body {
+    text-align: center; /* Center align everything horizontally */
+    font-family: Arial, sans-serif; /* Choose your desired font-family */
+}
+
+h1 {
+    font-size: 24px; 
+    font-weight: 300;
+}
+
+.feature-text {
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+.feature-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Add spacing as needed */
+}
+
+.feature {
+    text-align: center;
+    width: 20%; /* Adjust the width as needed */
+    border: none; /* Add borders or styling as desired */
+    padding: 0px; /* Add padding as desired */
+   
+}
+.feature:first-child {
+    margin-left:20%; /* Add a right margin to the first element */
+}
+
+.feature:last-child {
+    margin-right: 20%; /* Add a left margin to the last element */
+}
+.feature img {
+    max-width: 100px; /* Set the max width for the logo */
+}
+
+.feature h2 {
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.feature p {
+    font-size: 14px; /* Adjust the font size as needed */
+}
+/* Previous styles for the feature sections */
+
+/* Previous styles for the feature sections */
+
+.content-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px; /* Add spacing as needed */
+    justify-content: center; /* Center horizontally */
+}
+
+.content-left {
+    flex: 1;
+    text-align: left;
+    padding: 20px; /* Add padding as needed */
+    margin-left: 30%;
+    margin-right: -10%;
+}
+.content-left p {
+ max-width: 70%;
+}
+.content-left button {
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  border-radius: 25px;
+  border: none;
+  padding: 5px 15px;
+}
+
+.content-right {
+    flex: 1;
+    text-align: right;
+    padding: 20px; /* Add padding as needed */
+    margin-right: 20%;
+    margin-left: -10%;
+}
+
+.content-right img {
+    max-width: 80%; /* Ensure the image fits within its container */
+}
+
+
+.subscribe-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.subscribe-left {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+.subscribe-left img {
+   max-width: 50%;
+   margin-left: 40%;
+}
+
+.subscribe-right {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.subscribe-right h2 {
+    font-size: 24px;
+}
+
+.subscribe-right p {
+    font-size: 16px;
+}
+
+input[type="email"] {
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border:none; 
+    background-color: rgb(225, 229, 232);
+}
+
+.subscribe-section button {
+    padding: 10px 20px;
+    background-color: #0077B5; /* Change the button color as desired */
+    color: #fff; /* Change the text color as desired */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.subscribe-section button:hover {
+    background-color: #005682; /* Change the hover color as desired */
+}
